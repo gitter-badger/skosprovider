@@ -2,39 +2,45 @@
 API Documentation
 =================
 
-Skos module
------------
+skosprovider.skos
+-----------------
 
 .. automodule:: skosprovider.skos
    :members:
 
-Providers module
-----------------
+skosprovider.domain.skos
+------------------------
+
+.. automodule:: skosprovider.domain.skos
+   :members:
+
+skosprovider.providers
+----------------------
 
 .. automodule:: skosprovider.providers
    :members: VocabularyProvider, MemoryProvider, DictionaryProvider, SimpleCsvProvider
    :special-members: __init__
 
-Registry module
----------------
+skosprovider.registry
+---------------------
 
 .. automodule:: skosprovider.registry
    :members:
 
-Uri module
-----------
+skosprovider.uri
+----------------
 
 .. automodule:: skosprovider.uri
    :members:
 
-Exceptions module
------------------
+skosprovider.exceptions
+-----------------------
 
 .. automodule:: skosprovider.exceptions
    :members:
 
-Utils module
----------------
+skosprovider.utils
+------------------
 
 .. automodule:: skosprovider.utils
    :members:

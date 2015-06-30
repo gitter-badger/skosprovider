@@ -1,12 +1,9 @@
 #-*- coding: utf-8 -*-
-
 '''
-The skos domain has moved to :mod:`skosprovider.domain.skos`.
+.. deprecated:: 0.6.0
 
-Please update all your references. This module is deprecated and will be 
-removed in a future version.
-
-.. versionadded:: 0.2.0
+    The skos domain has moved to :mod:`skosprovider.domain.skos`. Please
+    update all your references. This module will be removed in a future version.
 '''
 
 from skosprovider.domain.skos import *
