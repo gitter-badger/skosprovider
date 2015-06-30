@@ -141,7 +141,7 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(c.uri, 'http://id.trees.org/1')
 
     def test_one_provider_getConceptByUriDifferentFromConceptScheme(self):
-        from skosprovider.skos import ConceptScheme
+        from skosprovider.domain.skos import ConceptScheme
         from skosprovider.providers import DictionaryProvider
         trees = DictionaryProvider(
             {'id': 'TREES', 'default_language': 'nl'},

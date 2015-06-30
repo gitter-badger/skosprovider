@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 import unittest
 
-from skosprovider.skos import (
+from skosprovider.domain.skos import (
     Label,
     Note,
     ConceptScheme,

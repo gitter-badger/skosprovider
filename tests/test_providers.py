@@ -14,7 +14,7 @@ from skosprovider.providers import (
     SimpleCsvProvider
 )
 
-from skosprovider.skos import (
+from skosprovider.domain.skos import (
     Concept,
     Collection,
     ConceptScheme,
